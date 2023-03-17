@@ -1,0 +1,181 @@
+#Data Bansos
+
+#Fungsionalitas Program
+program ini berfungsi untuk mendata penerima bansos yang dapat dan program ini dapat menambahka dan menghapus data bansos 
+serta dapat melihat data yang ada serta menggantikan data apabila data tersebut salah
+
+
+#cara karja program
+saat program di jalankan maka akan timbul menu dari menu user bansos dan
+akan menampilkan perintah ,(masukan pilihan anda:) pilihan yang tampil ada
+1.menambahkan data bansos
+2.tampilkan data bansos
+3.cari data bansos
+4.update data bansos
+5.hapus data bansos
+6.exit
+dan ketika kita memilih 1 akan timbul
+masukan KTP :
+masukan nama:
+masukan jenis kelamin:
+dan setelah kita menambahkan data tersebut maka akan kembali ke 
+menu user
+dan ketika memilih 2 akan menampilkan tabel ktp dan nama dan jenis kelamin
+dan ketika memilih 3 akan menampilkan perintah masukan KTP yang ingin di cari maka 
+akan menginput KTP,nama,dan jenis kelamin
+dan ketika memilih 4 maka akan timbul perintah masukan KTP yang ingin di update
+dan perintah masukan KTP baru
+dan masukan nama baru lalu
+masukan jenis kelamin baru
+lalu kembali ke tampilan menu
+dan ketika memilih 5 
+maka akan timbul perintah masukan KTP data bansos yang ingin di hapus
+dan ketika kita memilih 6 maka akan keluar dari menu user data bansos
+
+
+#output program
+
+# menu user
+    =========================================
+    ==========Menu user Bansos===============
+    _________________________________________
+    1. Tambah Data Bansos                    
+    2. Tampilkan Data Bansos                 
+    3. Cari Data Basos                       
+    4. Update Data Bansos                    
+    5. Hapus Data Bansos                     
+    6. Keluar                                
+    _________________________________________
+    
+    #Tambah data
+     =========================================
+    ==========Menu user Bansos===============
+    _________________________________________
+    1. Tambah Data Bansos                    
+    2. Tampilkan Data Bansos                 
+    3. Cari Data Basos                       
+    4. Update Data Bansos                    
+    5. Hapus Data Bansos                     
+    6. Keluar                                
+    _________________________________________
+Masukan pilihan anda: 1
+Masukan KTP          : 098
+Masukan Nama         : iki
+Masukan Jenis kelamin : Laki-laki
+Data bansos berhasil ditambahkan!
+
+#Tampilkan data
+   =========================================
+    ==========Menu user Bansos===============
+    _________________________________________
+    1. Tambah Data Bansos
+    2. Tampilkan Data Bansos
+    3. Cari Data Basos
+    4. Update Data Bansos
+    5. Hapus Data Bansos
+    6. Keluar
+    _________________________________________
+Masukan pilihan anda: 2
++-----+------+-----------+
+| KTP | Nama |  Kelamin  |
++-----+------+-----------+
+| 098 | iki  | Laki-laki |
++-----+------+-----------+
+
+#Cari data bansos
+ =========================================
+    ==========Menu user Bansos===============
+    _________________________________________
+    1. Tambah Data Bansos
+    2. Tampilkan Data Bansos
+    3. Cari Data Basos
+    4. Update Data Bansos
+    5. Hapus Data Bansos
+    6. Keluar
+    _________________________________________
+Masukan pilihan anda: 3
++-----+------+-----------+
+| KTP | Nama |  Kelamin  |
++-----+------+-----------+
+| 098 | iki  | Laki-laki |
++-----+------+-----------+
+Masukan KTP yang ingin dicari: 098
+mahasiswa dengan KTP 098 ditemukan
+KTP : 098
+Nama : iki
+Kelamin : Laki-laki
+
+#update data bansos
+
+    =========================================
+    ==========Menu user Bansos===============
+    _________________________________________
+    1. Tambah Data Bansos
+    2. Tampilkan Data Bansos
+    3. Cari Data Basos
+    4. Update Data Bansos
+    5. Hapus Data Bansos
+    6. Keluar
+    _________________________________________
+Masukan pilihan anda: 4
++-----+------+-----------+
+| KTP | Nama |  Kelamin  |
++-----+------+-----------+
+| 098 | iki  | Laki-laki |
++-----+------+-----------+
+Masukan KTP mahasiswa yang ingin diupdate: 098
+Masukan KTP baru: 065
+Masukan Nama baru: syahfi
+Masukan Kelamin baru: Laki-laki
+Data Bansos berhasil diupdate!
+
+#Hapus data Bansos
+
+    =========================================
+    ==========Menu user Bansos===============
+    _________________________________________
+    1. Tambah Data Bansos
+    2. Tampilkan Data Bansos
+    3. Cari Data Basos
+    4. Update Data Bansos
+    5. Hapus Data Bansos
+    6. Keluar
+    _________________________________________
+Masukan pilihan anda: 5
++-----+--------+-----------+
+| KTP |  Nama  |  Kelamin  |
++-----+--------+-----------+
+| 065 | syahfi | Laki-laki |
++-----+--------+-----------+
+Masukan KTP data Bansos yang ingin dihapus: 065
+Bansos berhasil dihapus
+
+#keluar
+
+    =========================================
+    ==========Menu user Bansos===============
+    _________________________________________
+    1. Tambah Data Bansos
+    2. Tampilkan Data Bansos
+    3. Cari Data Basos
+    4. Update Data Bansos
+    5. Hapus Data Bansos
+    6. Keluar
+    _________________________________________
+Masukan pilihan anda: 6
+PS D:\Coding\pertemuan3> 
+
+#Elemen yang di gunakan
+import PrettyTable
+class Bansos:
+    def __init__(self, id_cart, nama, kelamin):
+class BansosLinkedList:
+    def __init__(self):
+        self.head = None
+def tambah_bansos
+def tampilkan_bansos
+while True:
+
+    
+    
+    
